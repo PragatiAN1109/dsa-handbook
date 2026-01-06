@@ -46,7 +46,7 @@ int main() {
     cout << sol.maxMatrixSum(m1) << endl; // Expected: 4
 
     vector<vector<int>> m2 = {{1, 2, 3}, {-1, -2, -3}, {1, 2, 3}};
-    cout << sol.maxMatrixSum(m2) << endl; // Example output depends on parity; should be sum(abs) if even negatives
+    cout << sol.maxMatrixSum(m2) << endl; // Expected: 16
 
     vector<vector<int>> m3 = {{-1, 2}, {3, 4}};
     cout << sol.maxMatrixSum(m3) << endl; // Expected: 8
